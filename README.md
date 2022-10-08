@@ -1,6 +1,7 @@
+# Afro Crypto Punk Mint Site test
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract. Testing the capablities and limitations of deploying a smart contract from stratch. 
 
 Try running some of the following tasks:
 
