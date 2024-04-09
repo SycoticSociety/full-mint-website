@@ -59,4 +59,4 @@ return (
 );
 };
 
-export default NavBar;
+export default MainMint;
