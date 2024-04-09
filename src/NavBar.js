@@ -35,4 +35,4 @@ const NavBar = ({accounts, setAccounts}) => {
         </div>
     );
 };
-export default MainMint;
+export default NavBar;
