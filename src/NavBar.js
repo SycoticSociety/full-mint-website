@@ -20,6 +20,10 @@ const NavBar = ({ accounts, setAccounts }) => {
         }
     }
 
+    function disconnectAccount() {
+        setAccounts([]);
+    }
+
     return (
         <div>
             {/*Left Side - Social Media Icons */}
@@ -32,9 +36,12 @@ const NavBar = ({ accounts, setAccounts }) => {
             <div>Mint</div>
             <div>Coming-Soon</div>
 
-            {/*Connect*/}
+            {/*Connect and Disconnect*/}
             {isConnected ? (
-                <p>Connected</p>
+                <div>
+                    <p>Connected</p>
+                    <button onClick={disconnectAccount}>Disconnect</button>
+                </div>
             ) : (
                 <button onClick={connectAccount}>Connect</button>
             )}
